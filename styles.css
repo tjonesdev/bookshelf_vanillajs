@@ -86,7 +86,7 @@ li a:hover {
 
 /* HOME PAGE */
 .indexHeader {
-  background-image: url(".Pictures/mobile-header.jpeg");
+  background-image: url("./images/mobile-header.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
