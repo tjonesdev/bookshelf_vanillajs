@@ -1,0 +1,1085 @@
+html, body {
+  min-width: 320px;
+  font-family: 'open sans', sans-serif;
+  position: relative;
+  color: dimgrey;
+}
+button:focus {
+  outline: none;
+}
+
+/* ----------- MOBILE ----------- */
+
+/* NAVBAR */
+/* Entire Navbar */
+.mainNav {
+  border: none;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px rgba(105,105,105,0.2);
+}
+/* Mobile Menu (Button Box) */
+.mobileMenu {
+  height: 36px;
+  width: 42px;
+  padding: 0;
+  border: none;
+}
+.mobileMenu:hover, .mobileMenu:focus {
+  background-color: white !important;
+  border: none;
+}
+/* Icon Bars */
+.menuBars {
+  margin: auto;
+  color: dimgrey;
+}
+/* Mobile Main Dropdown */
+.navBtnsDiv {
+  background-color: white;
+}
+
+.navbar-header .navbar-brand {
+  font-size: 30px;
+  color: dimgrey;
+  font-family: 'Pacifico', sans-serif;
+}
+.homebtn {
+  margin-top: -10px;
+}
+.navbtn {
+  width: 100%;
+  text-align: left;
+  padding: 10px 15px;
+  border: none;
+  color: #959595; /* Non-active greyed out color */
+  background-color: white;
+  font-family: arial;
+}
+.navbtn:hover, .navbtn:focus {
+  color: orange;
+}
+/* Active Main Navbtns */
+li.active .navbtn {
+  color: dimgrey;
+  background-color: whitesmoke;
+  border-left: 4px solid orange;
+  font-weight: 600;
+}
+/* Mobile Sub-Dropdown */
+.dropdown-content {
+  background-color: white;
+}
+.dropdown-content a {
+  padding: 5px 35px !important;
+  color: #959595 !important; /* Non-active greyed out color */
+}
+/* Active Sub-Dropdown Navbtns */
+li a.active, li a.active:hover {
+  background-color: whitesmoke !important;
+  color: dimgrey !important;
+  font-weight: 600;
+}
+li a:hover {
+  color: grey !important;
+}
+/* /NAVBAR */
+
+/* HOME PAGE */
+.indexHeader {
+  background-image: url(".Pictures/mobile-header.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 500px;
+  margin-top: -20px;
+  padding-top: 10%;
+  margin-bottom: -20px;
+}
+.indexHeader h1 {
+  font-size: 60px;
+  width: 290px;
+  height: 60px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: rgba(255,165,0,0.8);
+  border-radius: 6px;
+  font-family: 'Kurale', serif;
+}
+.indexSection {
+  padding: 10px;
+  margin-bottom: -20px;
+}
+.indexSection h1 {
+  font-size: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Kurale', serif;
+  height: 90px;
+  text-align: center;
+  padding: 5px;
+  margin: 0 5px;
+  margin-top: -30px;
+  background-color: whitesmoke;
+  color: dimgrey;
+}
+.indexSection p {
+  font-size: 15px;
+  color: dimgrey;
+}
+.indexSection a:link, .indexSection a:visited {
+  text-decoration: none;
+  color: orange;
+  font-weight: bold;
+}
+.indexSection a:hover, .indexSection a:active {
+  color: darkorange;
+}
+.color {
+  color: cornflowerblue;
+}
+.bold {
+  font-weight: bold;
+}
+/* About Section */
+.indexAbout {
+  background-color: orange;
+  height: 580px;
+}
+.aboutBlock {
+  background-color: white;
+  height: 460px;
+  margin: -10px 5px;
+}
+.aboutSection {
+  display: flex;
+  align-items: center;
+  margin: 10px 10px;
+}
+.about1 {
+  height: 140px;
+}
+.about2 {
+  height: 120px;
+  justify-content: flex-end;
+}
+.about3 {
+  height: 180px;
+}
+.about1 img {
+  height: 125px;
+}
+.about2 img {
+  height: 110px;
+}
+.about3 img {
+  width: 110px;
+}
+.aboutSection p {
+  margin: 10px 0;
+}
+.about2 p {
+  text-align: right;
+  margin-right: 15px;
+}
+.about3 p {
+  margin-left: 15px;
+}
+/* /About Section */
+/* All Section */
+.indexAll {
+  background-color: white;
+  height: 380px;
+}
+.indexAll img {
+  display: block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto 20px auto;
+}
+.allBlock {
+  margin: 0 5px;
+  padding: 20px 10px;
+}
+.indexAll p {
+  text-align: center;
+  margin: 10px auto;
+}
+/* /All Section */
+/* Fiction Section */
+.indexFiction {
+  background-color: orange;
+  height: 1000px;
+}
+.fictionBlock {
+  background-color: white;
+  height: 880px;
+  margin: 0 5px;
+  padding: 20px 15px;
+}
+.allFiction {
+  height: 130px;
+}
+.allFiction hr {
+  margin-top: 20px;
+  border-color: orange;
+}
+.fictionSection {
+  margin: 20px 0;
+}
+.fantasy {
+  height: 180px;
+}
+.scifi {
+  height: 140px;
+}
+.yaChild {
+  height: 160px;
+}
+.general {
+  height: 150px;
+}
+.fictionSection img {
+  width: 100px;
+}
+.fantasy img, .yaChild img {
+  float: left;
+  margin: auto 10px 10px auto;
+}
+.scifi img, .general img {
+  float: right;
+  margin: auto auto 10px 10px;
+}
+.allFiction p {
+  text-align: center;
+}
+.scifi p, .general p {
+  text-align: right;
+}
+/* /Fiction Section */
+/* Non-Fiction Section */
+.indexNonFiction {
+  background-color: white;
+  height: 700px;
+}
+.nonFictionBlock {
+  height: 580px;
+  margin: 0 5px;
+  padding: 20px 15px;
+}
+.allNonFiction {
+  height: 130px;
+}
+.allNonFiction hr {
+  margin-top: 20px;
+  border-color: orange;
+}
+.nonFictionSection {
+  margin: 20px 0;
+}
+.novels {
+  height: 170px;
+}
+.reference {
+  height: 210px;
+}
+.nonFictionSection img {
+  width: 100px;
+}
+.novels img {
+  float: left;
+  margin: auto 10px 10px auto;
+}
+.reference img {
+  float: right;
+  margin: auto auto 10px 10px;
+}
+.allNonFiction p {
+  text-align: center;
+}
+.reference p {
+  text-align: right;
+}
+/* /Non-Fiction Section */
+/* Classics Section */
+.indexClassics {
+  background-color: orange;
+  height: 400px;
+  margin-bottom: -50px;
+}
+.classicsBlock {
+  background-color: white;
+  height: 310px;
+  margin: 0 5px;
+  padding: 20px;
+}
+.indexClassics img {
+  display: block;
+  width: 200px;
+  margin: 0 auto 20px auto;
+}
+.indexClassics p {
+  text-align: center;
+  margin: 10px auto;
+}
+/* /Classics Section */
+/* Social Media */
+.social-container {
+  margin-top: 70px;
+  margin-bottom: -70px;
+  text-align: center;
+}
+.social {
+  margin: 10px;
+  width: 50px;
+  height: 50px;
+  font-size: 25px;
+  border: none;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+  color: white;
+}
+.social:hover {
+  background-color: orange;
+}
+h3 {
+  font-family: "Kurale", serif;
+}
+/* /Social Media */
+/* /HOME PAGE */
+
+/* PAGE HEAD */
+.page-head {
+  width: 100%;
+  text-align: center;
+  color: dimgrey;
+  font-size: 36px;
+  font-family: 'Kurale', serif;
+}
+/* /PAGE HEAD */
+
+/* LOADING SPINNER */
+.loader {
+  margin: 5% auto 0 auto;
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border: 6px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 6px solid orange;
+  border-bottom: 6px solid cornflowerblue;
+  -webkit-animation: spin 1s ease-in-out infinite;
+  animation: spin 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  50% { -webkit-transform: rotate(150deg); }
+  100% { -webkit-transform: rotate(400deg); }
+}
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  50% {transform: rotate(-200deg); }
+  100% { transform: rotate(400deg); }
+}
+/* /LOADING SPINNER */
+
+/* SPOTLIGHT */
+.spotMini {
+  display: none;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+  font-size: 30px;
+  color: orangered;
+}
+.spotMiniBtn {
+  width: 100%;
+  border: none;
+  background-color: transparent;
+}
+.spotMiniBtn:hover {
+  color: orangered;
+}
+.spotToggle {
+  display: none;
+}
+/* Spotlight Header (everything but description) */
+.spotlight {
+  background-color: whitesmoke;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 6px 0 rgba(105,105,105,0.4);
+  border: 1px solid orange;
+  border-top: 10px solid orange;
+  color: dimgrey;
+  height: 164px;
+}
+.spotImg {
+  max-width: 100px;
+  height: 154px;
+  float: left;
+  margin-right: 10px;
+}
+/* Title, Author, etc. (everything but description and image) */
+.spotHead {
+  padding: 10px;
+}
+.spotTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+.spotAuthor {
+  font-style: italic;
+}
+hr {
+  margin: 10px 0;
+  border-color: lightgrey;
+}
+.spotInfo {
+  font-size: 11px;
+}
+.spotInfo i {
+  color: orange;
+}
+/* Spotlight Description */
+.spotDesc {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: whitesmoke;
+  box-shadow: 0 2px 6px 0 rgba(105,105,105,0.4);
+  border: 1px solid cornflowerblue;
+  border-top: 10px solid cornflowerblue;
+  height: 160px;
+}
+.readMore, .readLess {
+  text-decoration: underline;
+  cursor: pointer;
+  color: cornflowerblue;
+}
+/* /SPOTLIGHT */
+
+/* SCROLL BUTTONS */
+/* Scroll to Top Button */
+.scrollTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 50%;
+}
+/* Scroll Down Button */
+.scrollDownBtn {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 80px;
+  border: none;
+  background-color: transparent;
+  color: orange;
+  font-size: 70px;
+  line-height: 70px;
+}
+/* /SCROLL BUTTONS */
+
+/* BOOKS */
+.bookResultInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.sortBooks {
+  display: flex;
+  align-items: center;
+  width: 33%;
+  height: 50px;
+  padding: 0 5px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  font-style: italic;
+  height: 50px;
+}
+.numCounter {
+  color: cornflowerblue;
+  font-weight: bold;
+}
+.showBooks {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 33%;
+  height: 50px;
+  padding: 0 5px;
+}
+.row {
+  margin-bottom: 20px;
+}
+.bookItem {
+  min-height: 175px;
+  height: 100%;
+  max-height: 300px;
+  margin: 7px 0;
+  display: block;
+}
+.thumbnail {
+  background-color: white;
+  box-shadow: 0 1px 4px 0 rgba(105,105,105,0.15), 0 1px 10px 0 rgba(105,105,105,0.15), 0 0 0 .3px gainsboro;
+  border-radius: 4px;
+  padding: 0;
+  transition: none;
+}
+.bookBtn {
+  box-sizing: border-box;
+  border: 5px solid transparent;
+}
+.bookBtn:link, .bookBtn:visited {
+  text-decoration: none;
+}
+.bookBtn:hover {
+  border: 5px solid cornflowerblue !important;
+  border-radius: 2px !important;
+  box-shadow: 0 1px 4px 0 rgba(105,105,105,0.15), 0 1px 10px 0 rgba(105,105,105,0.15);
+}
+.bookBtn:active, .bookBtn:focus {
+  border: 5px solid orange !important;
+  border-radius: 2px !important;
+}
+.bookItem img {
+  min-height: 100px;
+}
+.bookTitle, .bookAuthor, .bookDate {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.bookTitle {
+  color: dimgrey;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 5px;
+}
+.bookCaption {
+  padding: 8px;
+  color: dimgrey;
+  text-align: left;
+  font-weight: normal;
+}
+.bookAuthor {
+  padding-bottom: 5px;
+}
+/* /BOOKS */
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  left: 0;
+  height: 40px;
+  margin-top: 100px;
+  width: 100%;
+  text-align: center;
+  padding: 11px 0;
+  background-color: cornflowerblue;
+  color: white;
+}
+.footer a {
+  color: white;
+}
+/* FOOTER */
+/* ----------- /MOBILE ----------- */
+
+
+
+/* ----------- TABLET ----------- */
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+  /* Change width breakpoint */
+  .col-sm-6 {
+    width: 50%;
+  }
+  /* HOME PAGE */
+  .indexHeader {
+    background-image: url(".Pictures/tablet-header.jpeg");
+  }
+  .indexSection h1 {
+    font-size: 45px;
+    margin: 0 20px;
+    margin-top: -50px;
+  }
+  .indexSection p {
+    font-size: 20px;
+  }
+  /* About Section */
+  .aboutBlock {
+    margin: -10px 20px;
+  }
+  .about1 img {
+    height: 150px;
+  }
+  .about2 img {
+    height: 130px;
+    margin: 0 20px;
+  }
+  .about3 img {
+    width: 130px;
+  }
+  /* /About Section */
+  /* All Section */
+  .indexAll {
+    height: 400px;
+  }
+  .allBlock {
+    margin: 0 20px;
+  }
+  .indexAll img {
+    width: 130px;
+    height: 130px;
+  }
+  /* /All Section */
+  /* Fiction Section */
+  .indexFiction {
+    height: 1120px;
+  }
+  .fictionBlock {
+    height: 1000px;
+    margin: 0 20px;
+  }
+  .fantasy {
+    height: 200px;
+  }
+  .scifi {
+    height: 170px;
+  }
+  .yaChild {
+    height: 190px;
+  }
+  .general {
+    height: 190px;
+  }
+  .fictionSection img {
+    width: 130px;
+  }
+  /* /Fiction Section */
+  /* Non-Fiction Section */
+  .indexNonFiction {
+    height: 740px;
+  }
+  .nonFictionBlock {
+    height: 620px;
+    margin: 0 20px;
+  }
+  .novels {
+    height: 200px;
+  }
+  .nonFictionSection img {
+    width: 130px;
+  }
+  /* /Non-Fiction Section */
+  /* Classics Section */
+  .indexClassics {
+    height: 450px;
+  }
+  .classicsBlock {
+    margin: 0 20px;
+    height: 360px;
+  }
+  .indexClassics img {
+    width: 250px;
+  }
+  /* /Classics Section */
+  /* Social Media */
+  .social-container {
+    margin-top: 70px;
+    margin-bottom: -70px;
+    text-align: center;
+  }
+  .social {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    color: white;
+  }
+  .social:hover {
+    background-color: orange;
+  }
+  h3 {
+    font-family: "Kurale", serif;
+  }
+  /* /Social Media */
+  /* /HOME PAGE */
+  /* SCROLL BUTTONS */
+  /* Scroll Down Button */
+  /* hover.css hover-hang effect for scroll down button */
+  @-webkit-keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+    50% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+    50% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @-webkit-keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  .hvr-hang {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+  }
+  .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+  /* /SCROLL BUTTONS */
+}
+/* ----------- /TABLET ----------- */
+
+
+
+/* ----------- DESKTOP ----------- */
+@media only screen and (min-width: 768px) {
+  /* NAVBAR */
+  /* Entire Navbar */
+  .mainNav {
+    border-radius: 0 !important;
+  }
+
+  .navbar-brand {
+    font-size: 36px !important;
+  }
+  .homebtn {
+    margin-top: 0;
+  }
+  .navbtn {
+    min-width: 100px;
+    font-size: 16px;
+    padding: 14px 15px;
+    text-align: center;
+    color: dimgrey;
+  }
+  .navbtn:hover, .navbtn:focus {
+    color: dimgrey;
+    border-bottom: 8px solid orange;
+    background-color: whitesmoke;
+  }
+  /* Active Main Navbtns */
+  li.active .navbtn {
+    border-left: none;
+    font-weight: normal;
+    border-bottom: 8px solid orange;
+  }
+  /* Navbtns That Drop Down */
+  .dropbtn {
+    cursor: default;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: whitesmoke;
+    border-bottom: 8px solid orange;
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  /* Dropdown Box */
+  .dropdown-content {
+    position: absolute;
+    left: 0 !important;
+    border: none;
+    border-top: 1px solid gainsboro !important;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2) !important;
+    min-width: 190px !important;
+    z-index: 99;
+    border-radius: 0;
+  }
+  /* Dropdown Sub-Buttons */
+  .dropdown-content a {
+    padding: 6px 20px !important;
+    color: dimgrey !important;
+    text-decoration: none !important;
+  }
+  .dropdown-content a:hover {
+    background-color: whitesmoke !important;
+    color: dimgrey !important;
+  }
+  /* /NAVBAR */
+
+  /* HOME PAGE */
+  .indexHeader {
+    background-image: url(".Pictures/desktop-header.jpeg");
+    height: 400px;
+  }
+  .indexHeader h1 {
+    font-size: 80px;
+    width: 390px;
+    height: 80px;
+  }
+  .indexSection h1 {
+    font-size: 45px;
+    margin: 0 40px;
+    margin-top: -50px;
+  }
+  .indexSection p {
+    font-size: 20px;
+  }
+  /* About Section */
+  .aboutBlock {
+    margin: -10px 40px;
+  }
+  .about1 img {
+    height: 200px;
+    margin-top: 20px;
+  }
+  .about2 img {
+    height: 170px;
+    margin: 0 20px;
+  }
+  .about3 img {
+    width: 160px;
+    margin: 0 20px;
+  }
+  /* /About Section */
+  /* All Section */
+  .indexAll {
+    height: 400px;
+  }
+  .allBlock {
+    margin: 0 40px;
+  }
+  .indexAll img {
+    width: 130px;
+    height: 130px;
+  }
+  /* /All Section */
+  /* Fiction Section */
+  .indexFiction {
+    height: 1120px;
+  }
+  .fictionBlock {
+    height: 1000px;
+    margin: 0 40px;
+  }
+  .fantasy {
+    height: 200px;
+  }
+  .scifi {
+    height: 170px;
+  }
+  .yaChild {
+    height: 190px;
+  }
+  .general {
+    height: 190px;
+  }
+  .fictionSection img {
+    width: 130px;
+  }
+  /* /Fiction Section */
+  /* Non-Fiction Section */
+  .indexNonFiction {
+    height: 740px;
+  }
+  .nonFictionBlock {
+    height: 620px;
+    margin: 0 40px;
+  }
+  .novels {
+    height: 200px;
+  }
+  .nonFictionSection img {
+    width: 130px;
+  }
+  /* /Non-Fiction Section */
+  /* Classics Section */
+  .indexClassics {
+    height: 450px;
+  }
+  .classicsBlock {
+    height: 360px;
+    margin: 0 40px;
+  }
+  .indexClassics img {
+    width: 250px;
+  }
+  /* /Classics Section */
+  /* Social Media */
+  .social-container {
+    margin-top: 70px;
+    margin-bottom: -70px;
+    text-align: center;
+  }
+  .social {
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    border: none;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    color: white;
+  }
+  .social:hover {
+    background-color: orange;
+  }
+  h3 {
+    font-family: "Kurale", serif;
+  }
+  /* /Social Media */
+  /* /HOME PAGE */
+
+  /* PAGE HEAD */
+  .page-head {
+    font-size: 45px;
+  }
+  /* /PAGE HEAD */
+
+  /* SPOTLIGHT */
+  /* Spotlight Header (everything but description) */
+  .spotlight {
+    height: 250px;
+    float: left;
+    width: 49%;
+  }
+  hr {
+    display: none;
+  }
+  .spotInfo {
+    clear: left;
+    padding-top: 10px;
+  }
+  /* Spotlight Description */
+  .spotDesc {
+    width: 49%;
+    float: right;
+    height: 250px;
+  }
+  /* /SPOTLIGHT */
+
+  /* SCROLL BUTTONS */
+  /* Scroll to Top Button */
+  .scrollTopBtn {
+    bottom: 30px;
+    right: 30px;
+  }
+  /* Scroll Down Button */
+  /* hover.css hover-hang effect for scroll down button */
+  @-webkit-keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+    50% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @keyframes hvr-hang {
+    0% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+    50% {
+      -webkit-transform: translateY(0px);
+      transform: translateY(0px);
+    }
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @-webkit-keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+  @keyframes hvr-hang-sink {
+    100% {
+      -webkit-transform: translateY(16px);
+      transform: translateY(16px);
+    }
+  }
+   .hvr-hang {
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+  }
+  .hvr-hang:hover, .hvr-hang:focus, .hvr-hang:active {
+    -webkit-animation-name: hvr-hang-sink, hvr-hang;
+    animation-name: hvr-hang-sink, hvr-hang;
+    -webkit-animation-duration: .3s, 1.5s;
+    animation-duration: .3s, 1.5s;
+    -webkit-animation-delay: 0s, .3s;
+    animation-delay: 0s, .3s;
+    -webkit-animation-timing-function: ease-out, ease-in-out;
+    animation-timing-function: ease-out, ease-in-out;
+    -webkit-animation-iteration-count: 1, infinite;
+    animation-iteration-count: 1, infinite;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-direction: normal, alternate;
+    animation-direction: normal, alternate;
+  }
+  /* /SCROLL BUTTONS */
+}
+/* ----------- /DESKTOP ----------- */

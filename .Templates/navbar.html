@@ -1,0 +1,60 @@
+<!-- WRAPPER -->
+<div class="wrapper">
+<!-- NAVBAR -->
+<nav class="navbar navbar-default mainNav">
+  <div class="container-fluid">
+    <!-- Mobile Navbar -->
+    <div class="navbar-header">
+      <button class="navbar-toggle collapsed mobileMenu" data-toggle="collapse" data-target=".navBtnsDiv" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-lg fa-bars menuBars"></i>
+      </button>
+      <a class="navbar-brand" href="index.html">Bookshelf</a>
+    </div>
+    <!-- /Mobile Navbar -->
+    <!-- Navbar Buttons -->
+    <div class="collapse navbar-collapse navBtnsDiv">
+      <ul class="nav navbar-nav navbar-right">
+        <!-- Home -->
+        <!-- Note: Add "active" class to qualified items -->
+        <li class="navItem">
+          <button onclick="location.href='index.html'" class="navbtn homebtn">Home</button>
+        </li>
+        <!-- All -->
+        <li class="navItem">
+          <button onclick="location.href='all.html'" class="navbtn">All</button>
+        </li>
+        <!-- Fiction Dropdown -->
+        <li class="dropdown navItem">
+          <button class="dropbtn navbtn" data-toggle="dropdown">Fiction</button>
+          <ul class="dropdown-content dropdown-menu">
+            <li><a class="subnavbtn" href="all-fiction.html">All</a></li>
+            <li><a class="subnavbtn" href="fantasy.html">Fantasy</a></li>
+            <li><a class="subnavbtn" href="science-fiction.html">Science Fiction</a></li>
+            <li><a class="subnavbtn" href="ya-child.html">Young Adult & Children's</a></li>
+            <li><a class="subnavbtn" href="general.html">General</a></li>
+          </ul>
+        </li>
+        <!-- Non-Fiction Dropdown -->
+        <li class="dropdown navItem">
+          <button class="dropbtn navbtn" data-toggle="dropdown">Non-Fiction</button>
+          <ul class="dropdown-content dropdown-menu">
+            <li><a class="subnavbtn" href="all-non-fiction.html">All</a></li>
+            <li><a class="subnavbtn" href="reference.html">Reference</a></li>
+            <li><a class="subnavbtn" href="novels.html">Novels</a></li>
+          </ul>
+        </li>
+        <!-- Classics -->
+        <li class="navItem">
+          <button onclick="location.href='classics.html'" class="navbtn">Classics</button>
+        </li>
+      </ul>
+      <!-- /Navbar Buttons List -->
+    </div>
+    <!-- /Navbar Buttons -->
+  </div>
+  <!-- /Container-Fluid -->
+</nav>
+<!-- /NAVBAR -->
+
+<!-- Wrapper ends on pages.html -->

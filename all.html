@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>All Books | Bookshelf</title>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Kurale|Pacifico|Open+Sans" rel="stylesheet">
+    <!-- Bootstap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body class="allBooksPage">
+  <div class=".wrapper">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default mainNav">
+      <div class="container-fluid">
+        <!-- Mobile Navbar -->
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed mobileMenu" data-toggle="collapse" data-target=".navBtnsDiv" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-lg fa-bars menuBars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">Bookshelf</a>
+        </div>
+        <!-- /Mobile Navbar -->
+        <!-- Navbar Buttons -->
+        <div class="collapse navbar-collapse navBtnsDiv">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Home -->
+            <li class="navItem">
+              <button onclick="location.href='index.html'" class="navbtn homebtn">Home</button>
+            </li>
+            <!-- All -->
+            <li class="active navItem">
+              <button onclick="location.href='all.html'" class="navbtn">All</button>
+            </li>
+            <!-- Fiction Dropdown -->
+            <li class="dropdown navItem">
+              <button class="dropbtn navbtn" data-toggle="dropdown">Fiction</button>
+              <ul class="dropdown-content dropdown-menu">
+                <li><a class="subnavbtn" href="fiction/all-fiction.html">All</a></li>
+                <li><a class="subnavbtn" href="fiction/fantasy.html">Fantasy</a></li>
+                <li><a class="subnavbtn" href="fiction/science-fiction.html">Science Fiction</a></li>
+                <li><a class="subnavbtn" href="fiction/ya-child.html">Young Adult & Children's</a></li>
+                <li><a class="subnavbtn" href="fiction/general.html">General</a></li>
+              </ul>
+            </li>
+            <!-- Non-Fiction Dropdown -->
+            <li class="dropdown navItem">
+              <button class="dropbtn navbtn" data-toggle="dropdown">Non-Fiction</button>
+              <ul class="dropdown-content dropdown-menu">
+                <li><a class="subnavbtn" href="non-fiction/all-non-fiction.html">All</a></li>
+                <li><a class="subnavbtn" href="non-fiction/reference.html">Reference</a></li>
+                <li><a class="subnavbtn" href="non-fiction/novels.html">Novels</a></li>
+              </ul>
+            </li>
+            <!-- Classics -->
+            <li class="navItem">
+              <button onclick="location.href='classics.html'" class="navbtn">Classics</button>
+            </li>
+          </ul>
+          <!-- /Navbar Buttons List -->
+        </div>
+        <!-- /Navbar Buttons -->
+      </div>
+      <!-- /Container-Fluid -->
+    </nav>
+    <!-- /NAVBAR -->
+
+    <!-- PAGE HEAD -->
+    <div class="page-head">
+      <div class="container-fluid">
+        <p>All Books</p>
+      </div>
+    </div>
+    <!-- /PAGE HEAD -->
+
+    <!-- Loading Spinner -->
+    <div class="loader"></div>
+    <!-- Content to be hidden on page load -->
+    <div class="pageContent">
+
+      <!-- Spotlight -->
+      <div class="spotMini">
+        <button class="spotMiniBtn" title="Minimize Spotlight"><i class="fa fa-times-circle"></i></button>
+      </div>
+
+      <div class="spotToggle container"></div>
+      <!-- Scroll to Top -->
+      <button class="scrollTopBtn" title="Scroll to top"><i class="fa fa-angle-up fa-2x"></i></button>
+
+      <!-- BOOKS -->
+      <div class="book-container container">
+        <!-- book/page counter -->
+        <div class="counter">Loading results...</div>
+        <div id="allBooksRow" class="row">
+          <!-- JS populate -->
+        </div>
+        <!-- Scroll Down -->
+        <button class="scrollDownBtn hvr-hang" title="Scroll down"><i class="fa fa-angle-down"></i></button>
+      </div>
+      <!-- /BOOKS -->
+
+    </div>
+    <!-- Content to be hidden on page load -->
+  </div>
+  <!-- /WRAPPER -->
+
+  <!-- Content to be hidden on page load -->
+  <div class="pageContent">
+    <footer class="footer"><a href="https://github.com/JustKeepProgramming" target="_blank">JustKeepProgramming</a> &copy; 2017</footer>
+  </div>
+  <!-- Content to be hidden on page load -->
+
+    <!-- Tabletop.js CDN -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/tabletop.js/1.5.1/tabletop.min.js'></script>
+    <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- DotDotDot CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.dotdotdot/1.7.4/jquery.dotdotdot.min.js"></script>
+    <!-- Bootstrap.js CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

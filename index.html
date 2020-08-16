@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home | Bookshelf</title>
+    <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Kurale|Pacifico|Open+Sans" rel="stylesheet">
+    <!-- Bootstap CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- FontAwesome CDN -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class=".wrapper">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default mainNav">
+      <div class="container-fluid">
+        <!-- Mobile Navbar -->
+        <div class="navbar-header">
+          <button class="navbar-toggle collapsed mobileMenu" data-toggle="collapse" data-target=".navBtnsDiv" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <i class="fa fa-lg fa-bars menuBars"></i>
+          </button>
+          <a class="navbar-brand" href="index.html">Bookshelf</a>
+        </div>
+        <!-- /Mobile Navbar -->
+        <!-- Navbar Buttons -->
+        <div class="collapse navbar-collapse navBtnsDiv">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Home -->
+            <li class="active navItem">
+              <button onclick="location.href='index.html'" class="navbtn homebtn">Home</button>
+            </li>
+            <!-- All -->
+            <li class="navItem">
+              <button onclick="location.href='all.html'" class="navbtn">All</button>
+            </li>
+            <!-- Fiction Dropdown -->
+            <li class="dropdown navItem">
+              <button class="dropbtn navbtn" data-toggle="dropdown">Fiction</button>
+              <ul class="dropdown-content dropdown-menu">
+                <li><a class="subnavbtn" href="fiction/all-fiction.html">All</a></li>
+                <li><a class="subnavbtn" href="fiction/fantasy.html">Fantasy</a></li>
+                <li><a class="subnavbtn" href="fiction/science-fiction.html">Science Fiction</a></li>
+                <li><a class="subnavbtn" href="fiction/ya-child.html">Young Adult & Children's</a></li>
+                <li><a class="subnavbtn" href="fiction/general.html">General</a></li>
+              </ul>
+            </li>
+            <!-- Non-Fiction Dropdown -->
+            <li class="dropdown navItem">
+              <button class="dropbtn navbtn" data-toggle="dropdown">Non-Fiction</button>
+              <ul class="dropdown-content dropdown-menu">
+                <li><a class="subnavbtn" href="non-fiction/all-non-fiction.html">All</a></li>
+                <li><a class="subnavbtn" href="non-fiction/reference.html">Reference</a></li>
+                <li><a class="subnavbtn" href="non-fiction/novels.html">Novels</a></li>
+              </ul>
+            </li>
+            <!-- Classics -->
+            <li class="navItem">
+              <button onclick="location.href='classics.html'" class="navbtn">Classics</button>
+            </li>
+          </ul>
+          <!-- /Navbar Buttons List -->
+        </div>
+        <!-- /Navbar Buttons -->
+      </div>
+      <!-- /Container-Fluid -->
+    </nav>
+    <!-- /NAVBAR -->
+
+    <!-- HEADER -->
+    <div class="indexHeader"><h1>Bookshelf</h1></div>
+    <!-- HEADER -->
+
+    <!-- ABOUT -->
+    <div class="indexAbout indexSection">
+      <h1>What Is Bookshelf?</h1>
+      <div class="aboutBlock">
+      <div class="about1 aboutSection">
+        <img src=".Pictures/about1.png">
+        <p>Since getting my first bookshelf, I have collected a lot of books. <span class="bold color">They no longer fit on the shelves!</span></p>
+      </div>
+      <div class="about2 aboutSection">
+          <p>As of <span class="color">July 25, 2017</span>, I have collected <span class="bold color">over 200</span> books.</p>
+        <img src=".Pictures/about2.png">
+      </div>
+      <div class="about3 aboutSection">
+        <img src=".Pictures/about3.png">
+        <p>My boyfriend and I created a <span class="bold color">"ledger"</span> to keep track of all our books. This website is a <span class="color">tribute</span> to that.</p>
+      </div>
+    </div>
+    </div>
+    <!-- /ABOUT -->
+
+    <!-- ALL BOOKS -->
+    <div class="indexAll indexSection">
+      <h1>All Books</h1>
+      <div class="allBlock">
+        <img src=".Pictures/all.jpg">
+        <p>Do you want to skip the filler and just see the <span class="color bold">whole collection</span>?</p>
+        <p><a href="all.html">Take me there! <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+    </div>
+    <!-- /ALL BOOKS -->
+
+    <!-- FICTION -->
+    <div class="indexFiction indexSection">
+      <h1>Fiction</h1>
+      <div class="fictionBlock">
+      <div class="allFiction">
+        <p>Take a step off the <span class="color">path of reality</span>, and check out my <span class="color bold">entire</span> fiction collection.</p>
+        <p><a href="fiction/all-fiction.html">Let's go to <u>All Fiction</u> &nbsp;<i class="fa fa-arrow-circle-right"></i></a></p>
+        <hr>
+      </div>
+      <div class="fantasy fictionSection">
+        <img src=".Pictures/fantasy.png">
+        <p>Adventure through untold lands and meet mystical creatures, cast magic, <span class="color bold">be your own hero</span>.</p>
+        <p><a href="fiction/fantasy.html">Ride your dragon to <u>Fantasy</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+      <div class="scifi fictionSection">
+        <img src=".Pictures/scifi.png">
+        <p><span class="color">Fly with me</span> to other galaxies to pay witness to <span class="color">alien life</span>. </p>
+        <p><a href="fiction/science-fiction.html">Will you choose peace or war in <u>Science Fiction</u>? <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+      <div class="yaChild fictionSection">
+        <img src=".Pictures/yaChild.png">
+        <p>Not all of us can be <span class="color bold">adults</span> all of the time!</p>
+        <p><a href="fiction/ya-child.html">Entertain your inner child (or angsty teen) in <u>Young Adult & Children's</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+      <div class="general fictionSection">
+        <img src=".Pictures/general.png">
+        <p>Enjoy the <span class="color">simplicity</span> of fiction without a genre?</p>
+        <p><a href="fiction/general.html">We don't use labels at <u>General Fiction</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+    </div>
+    </div>
+    <!-- /FICTION -->
+
+    <!-- NON-FICTION -->
+    <div class="indexNonFiction indexSection">
+      <h1>Non-Fiction</h1>
+      <div class="nonFictionBlock">
+      <div class="allNonFiction">
+        <p>Walk through <span class="color">history</span> and <span class="color">time</span>, <span class="color">science</span> and <span class="color">truth</span>, in my non-fiction collection.</p>
+        <p><a href="non-fiction/all-non-fiction.html">Let's go to <u>All Non-Fiction</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+        <hr>
+      </div>
+      <div class="novels nonFictionSection">
+        <img src=".Pictures/novels.png">
+        <p>Do you enjoy the <span class="color bold">facts</span> textbooks provide... but in <span class="color">story</span> form?</p>
+        <p><a href="non-fiction/novels.html">Take part in a <em>real</em> adventure over at <u>Novels</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+      <div class="reference nonFictionSection">
+        <img src=".Pictures/reference.png">
+        <p>Textbooks and reference books are not for the faint of heart (or the impatient), but <span class="color bold">maybe you can handle them</span>.</p>
+        <p><a href="non-fiction/reference.html">Strengthen your mind in <u>Reference</u> <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+    </div>
+    </div>
+    <!-- /NON-FICTION -->
+
+    <!-- CLASSICS -->
+    <div class="indexClassics indexSection">
+      <h1>Classics</h1>
+      <div class="classicsBlock">
+        <img src=".Pictures/classics.jpg">
+        <p><span class="color bold">Last but not least</span>: books for the romantics, the literaries, the students who are forced to read what their teachers provide...</p>
+        <p><a href="classics.html">Give me <u>Classics</u>! <i class="fa fa-arrow-circle-right"></i></a></p>
+      </div>
+    </div>
+    <!-- /CLASSICS -->
+    <!-- SOCIAL MEDIA -->
+    <div class="container social-container">
+      <h3>Get in Touch</h3>
+      <button id="github" onclick="window.open('https://github.com/tjonesdev')" class="social" title="Github"><i class="fa fa-github"></i></button>
+      <a href="mailto:tracey.l.jones@outlook.com" target="_blank"><button class="social email"><i class="fa fa-envelope" title="E-Mail"></i></button></a>
+      <button id="linkedin" onclick="window.open('https://www.linkedin.com/in/traceylynjones/')" class="social" title="LinkedIn"><i class="fa fa-linkedin"></i></button>
+    </div>
+    <!-- /SOCIAL MEDIA -->
+  </div>
+  <!-- /WRAPPER -->
+
+  <footer class="footer"><a href="https://github.com/JustKeepProgramming" target="_blank">JustKeepProgramming</a> &copy; 2017</footer>
+
+    <!-- Jquery CDN -->
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <!-- Bootstrap.js CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+  <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
