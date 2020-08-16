@@ -86,7 +86,7 @@ li a:hover {
 
 /* HOME PAGE */
 .indexHeader {
-  background-image: url("./images/desktop-header.jpg");
+  background-image: url("./images/desktop-header.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -609,7 +609,7 @@ hr {
   }
   /* HOME PAGE */
   .indexHeader {
-    background-image: url("./images/tablet-header.jpg");
+    background-image: url("./images/tablet-header.jpeg");
   }
   .indexSection h1 {
     font-size: 45px;
@@ -861,7 +861,7 @@ hr {
 
   /* HOME PAGE */
   .indexHeader {
-    background-image: url("./images/desktop-header.jpg");
+    background-image: url("./images/desktop-header.jpeg");
     height: 400px;
   }
   .indexHeader h1 {
