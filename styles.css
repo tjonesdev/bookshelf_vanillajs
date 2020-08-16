@@ -609,7 +609,7 @@ hr {
   }
   /* HOME PAGE */
   .indexHeader {
-    background-image: url(".Pictures/tablet-header.jpeg");
+    background-image: url("./images/tablet-header.jpg");
   }
   .indexSection h1 {
     font-size: 45px;
@@ -861,7 +861,7 @@ hr {
 
   /* HOME PAGE */
   .indexHeader {
-    background-image: url(".Pictures/desktop-header.jpeg");
+    background-image: url("./images/desktop-header.jpg");
     height: 400px;
   }
   .indexHeader h1 {
