@@ -58,9 +58,9 @@ var pageClass = document.body.classList;
 var bookItems = document.getElementsByClassName("bookItem");
 var picture;
 if (pageClass.contains("classicsPage") || pageClass.contains("allBooksPage")) {
-  picture = '.Pictures/placeholder.png';
+  picture = './images/placeholder.png';
 } else {
-  picture = '../.Pictures/placeholder.png';
+  picture = '../images/placeholder.png';
 }
 
 // entire book blocks
