@@ -1,0 +1,6 @@
+
+[[redirects]]
+from = "https://tjonesdev-bookshelf.netlify.app"
+to = "https://bookshelf.tjonesdev.com"
+status = 301
+force = true
